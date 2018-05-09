@@ -5,63 +5,68 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="cc/main.css">
+
+
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
-    crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SmilesForMiles</title>
 </head>
 
-<body>
+<body id="home" class="scrollspy">
 
 
   <!-- Navbar -->
   <div class="navbar-fixed">
     <nav class="teal">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">SmilesForMiles</a>
-        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#search">Search</a>
-          </li>
-          <li>
-            <a href="#popular">Popular Places</a>
-          </li>
-          <li>
-            <a href="#gallery">Gallery</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">SmilesForMiles</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#search">Search</a>
+            </li>
+            <li>
+              <a href="#popular">Popular Places</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
-  <ul class="sidenav" id="mobile-nav">
+  <ul class="sidenav " id="mobile-nav ">
     <li>
-      <a href="#home">Home</a>
+      <a href="#home ">Home</a>
     </li>
     <li>
-      <a href="#search">Search</a>
+      <a href="#search ">Search</a>
     </li>
     <li>
-      <a href="#popular">Popular Places</a>
+      <a href="#popular ">Popular Places</a>
     </li>
     <li>
-      <a href="#gallery">Gallery</a>
+      <a href="#gallery ">Gallery</a>
     </li>
     <li>
-      <a href="#contact">Contact</a>
+      <a href="#contact ">Contact</a>
     </li>
   </ul>
 
@@ -69,19 +74,19 @@
 
   <!-- Section Slider -->
 
-  <section class="slider">
+  <section class="slider ">
 
-    <ul class="slides">
+    <ul class="slides ">
       <li>
-        <img src="img/resort1.jpeg">
+        <img src="img/resort1.jpg ">
 
-        <div class="caption center-align">
+        <div class="caption center-align ">
           <h2>Take Your Dream Vacation</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, delectus.</h5>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, delectus.</h5>
         </div>
       </li>
       <li>
-        <img src="img/resort2.jpeg">
+        <img src="img/resort2.jpg ">
 
         <div class=" caption left-align ">
           <h2>We Work With All Budgets</h2>
@@ -89,17 +94,114 @@
         </div>
       </li>
       <li>
-        <img src="img/resort3.jpeg">
+        <img src="img/resort3.jpg ">
 
         <div class="caption right-align ">
           <h2>Group & Indiviual Getaways</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptas.</h5>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptas.</h5>
         </div>
       </li>
     </ul>
 
 
   </section>
+
+
+  <!-- Section: Search -->
+
+  <section id="search " class="section section-search teal darken-1 white-text center scrollspy ">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h3>Search Destinations</h3>
+          <div class="input-field">
+            <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="London,Cancun,etc...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Icon Boxes -->
+  <section class="section section-icons grey lighten-4 center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">room
+            </i>
+            <h4>Pick Where</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, dicta!</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">store
+            </i>
+            <h4>Travel Shop
+            </h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, dicta!</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">airplanemode_active
+            </i>
+            <h4>Fly Cheap</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, dicta!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seciton: Popular Places -->
+
+  <section id="popular" class="section section-popular scrollspy">
+    <div class="container">
+      <div class="row">
+        <h4 class="center">
+          <span class="teal-text">Popular</span> Places</h4>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort1.jpg" alt="">
+              <span class="card-title">Cancun, Mexico</span>
+            </div>
+            <div class="card-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ea deserunt officia, dicta sint perferendis.
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort2.jpg" alt="">
+              <span class="card-title">Venice, Italy</span>
+            </div>
+            <div class="card-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ea deserunt officia, dicta sint perferendis.
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/resort3.jpg" alt="">
+              <span class="card-title">Hawaii, United States
+              </span>
+            </div>
+            <div class="card-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ea deserunt officia, dicta sint perferendis.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 
   <!--JavaScript at end of body for optimized loading-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js "></script>
@@ -120,7 +222,20 @@
       interval: 6000,
 
     });
+    // Autocomplete
+    const ac = document.querySelector('.autocomplete');
+    M.Autocomplete.init(ac, {
+      data: {
+        "Aruba": null,
+        "London": null,
+        "New York": null,
+        "Hawaii": null,
+        "Italy": null,
+        "Japan": null,
+        "Canada": null,
 
+      }
+    });
   </script>
 </body>
 
